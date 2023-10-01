@@ -1,0 +1,12 @@
+def search (text, word):
+    if word in text:
+      return "Word found"
+    else:
+      return "Word not found"
+
+text = input ("Input text")
+word = input ("Input single word")
+
+res = search (text, word)
+
+print (res)
